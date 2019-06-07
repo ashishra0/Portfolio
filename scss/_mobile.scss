@@ -71,7 +71,6 @@
 
 // Smartphones
 @include mediaSm {
-
   main {
     padding: 2rem;
     #home h1 {
@@ -85,6 +84,10 @@
   }
 
   .projects {
+    grid-template-columns: 1fr;
+  }
+  
+  .boxes{
     grid-template-columns: 1fr;
   }
 }
